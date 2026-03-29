@@ -24,7 +24,7 @@ Here's a snapshot of my skillset:
 
 *   **Programming Languages:** C, C++, Haskell, Python, Luau, Verse
 *   **Frameworks/Libraries:** Google test, Google benchmark, Cabal, Servant, Beam, PyTorch
-*   **Tools:** Git, Github actions, Docker (compose), Podman, Jenkins, Kubernetes, Nix
+*   **Tools:** CMake, Conan, Git, Github actions, Docker (compose), Podman, Jenkins, Kubernetes, Nix
 
 ## ✨ Projects
 WIP
