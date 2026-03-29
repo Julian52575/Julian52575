@@ -1,14 +1,7 @@
 # 👋 Hello, I'm Julian Bottiglione! ✨
 
-<div class="svg-container">
-  <img src="profile/stats.svg" class="svg-item tallest">
-  <div class="svg-wrapper">
-    <img src="profile/top-langs.svg" class="svg-item">
-  </div>
-  <div class="svg-wrapper">
-    <img src="profile/wakatime.svg" class="svg-item">
-  </div>
-</div>
+<img src="profile/stats.svg" height="200" alt="GitHub Profile Views"> <img src="profile/top-langs.svg" height="400" alt="Top Langs">
+<img src="profile/wakatime.svg" height="400" alt="Wakatime">
 
 ##### Updated on March 29th 2026
 ## 🔭 About Me
