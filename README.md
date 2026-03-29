@@ -13,10 +13,10 @@
 I'm a passionate programmer who strives to better my skills every day.  
 I'm driven by a desire to become the most skilled developer you will ever met.
 
-My current goal is to improve my working processes by:
-    - Learning methodologies
-    - Learning to make efficient projects specifications
-    - Balancing workload between AIs tools and me to maximise code quality at the lowest effort cost 
+My current goal is to improve my working processes by:  
+    - Learning methodologies  
+    - Learning to make efficient projects specifications  
+    - Balancing workload between AIs tools and me to maximise code quality at the lowest effort cost   
 
 ## 🚀 Skills & Technologies
 
