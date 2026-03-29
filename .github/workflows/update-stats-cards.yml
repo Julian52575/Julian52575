@@ -40,9 +40,25 @@ jobs:
       - name: Generate WakaTime Stats
         uses: readme-tools/github-readme-stats-action@v1.1.0
         with:
-          card: waka-time
+          card: wakatime
           options: username=${{ github.repository_owner }}
           path: profile/wakatime.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Gist card
+        uses: readme-tools/github-readme-stats-action@v1.1.0
+        with:
+          card: gist
+          options: username=${{ github.repository_owner }}
+          path: profile/gist.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Streak card
+        uses: readme-tools/github-readme-stats-action@v1.1.0
+        with:
+          card: streak
+          options: username=${{ github.repository_owner }}
+          path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
