@@ -49,15 +49,6 @@ jobs:
           path: profile/wakatime.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate Streak card
-        if: always()
-        uses: readme-tools/github-readme-stats-action@v1.1.0
-        with:
-          card: streak
-          options: username=${{ github.repository_owner }}
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Commit cards
         if: always()
         run: |
