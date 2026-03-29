@@ -1,10 +1,13 @@
 # 👋 Hello, I'm Julian Bottiglione! ✨
 
-[![GitHub Profile Views](https://github-readme-stats.vercel.com/api?username=Julian52575&count=true&profile-view=true)](https://github.com/Julian52575)
-[![Top Langs](https://github-readme-stats.vercel.com/api?username=Julian52575&langs=true&count=true)](https://github.com/Julian52575)
-
-<div align="center">
-  <img src="https://media.giphy.com/media/3oEdrVqKmnXjJ9mJ9m/giphy.gif" width="400">
+<div class="svg-container">
+  <img src="profile/stats.svg" class="svg-item tallest">
+  <div class="svg-wrapper">
+    <img src="profile/top-langs.svg" class="svg-item">
+  </div>
+  <div class="svg-wrapper">
+    <img src="profile/wakatime.svg" class="svg-item">
+  </div>
 </div>
 
 ##### Updated on March 29th 2026
