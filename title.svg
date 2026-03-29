@@ -1,21 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="80">
-    <style src="./style.css" >
-        .title {
-          transition: fill .3s ease;
-          <!-- cursor: works in github not in preview mode -->
-          cursor: pointer;
-          font-family: Helvetica, sans-serif;
-          border-radius: 5px 5px 5px 5px;
-          fill:#2c1300;
-          text-anchor: middle;
-          dominant-baseline: middle;
-          font-size: 24px;
+<!-- https://stackoverflow.com/questions/51956361/custom-css-file-for-readme-md-in-a-github-repo -->
+<svg fill="none" viewBox="0 0 400 100" width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Star Gradient (optional, for more varied stars) -->
+    <linearGradient id="starGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF" />
+      <stop offset="100%" stop-color="#808080" />
+    </linearGradient>
+  </defs>
+
+  <!-- Galaxy Background -->
+  <rect width="100%" height="100%" fill="#000010" />  <!-- Dark Background -->
+  <g id="stars">
+    <!-- Create multiple stars with random sizes and positions -->
+    <circle cx="10" cy="10" r="3" fill="url(#starGradient)" opacity="0.8" />
+    <circle cx="190" cy="50" r="5" fill="url(#starGradient)" opacity="0.8" />
+    <circle cx="280" cy="40" r="3" fill="url(#starGradient)" opacity="0.8" />
+    <circle cx="360" cy="70" r="2" fill="url(#starGradient)" opacity="0.8" />
+  </g>
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        h1 {
+          font-family: 'Orbitron', sans-serif; /* A futuristic font */
+          font-size: 32px;
+          text-align: center;
+          color: #FFFFFF;  /* White */
+          text-shadow: 0 0 10px #FF00FF, 0 0 20px #00FFFF; /* Glow */
+          animation: galaxyText 3s linear infinite alternate;
         }
 
-    </style>
+        body {
+          background-color: transparent;
+        }
+      </style>
 
-    <g class="title">
-        <rect rx="5" width="100%" height="80"></rect>
-        <text x="50%" y="50%" width="" font-weight="bold" fill="yellow" >TypeScript Course</text>
-    </g>
+      <body>
+        <h1>Bottiglione Julian</h1>
+      </body>
+    
+    </div>
+  </foreignObject>
 </svg>
