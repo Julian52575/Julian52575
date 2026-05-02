@@ -4,17 +4,16 @@
 ## 🔭 About Me
 
 I'm a passionate programmer who strives to better my skills every day.  
-I'm driven by a desire to become the most skilled developer you will ever met.
+I'm driven by a desire to become the most skilled developer you will ever met and, if I'm not, I still be someone memorable.    
 
-My current goal is to improve my working processes by:  
-    - Learning methodologies  
-    - Learning to make efficient projects specifications  
-    - Balancing workload between AIs tools and me to maximise code quality at the lowest effort cost   
+## Current goals
+
+- Balancing workload between AIs tools and me to maximise code quality at the lowest effort cost.
+- Utilizing my background in Haskell and contracts to specializing in digital contract.
 
 ## ✨ Projects
 
 [Here is a list and retrospective on my past projects](https://github.com/Julian52575/Learning-Experiences/blob/main/README.md).  
-
 
 ## 🤝 Collaboration
 
