@@ -1,6 +1,6 @@
 # 👋 Hello, I'm Julian Bottiglione! ✨
 
-##### Updated on March 29th 2026
+##### Updated on May 2nd 2026
 ## 🔭 About Me
 
 I'm a passionate programmer who strives to better my skills every day.  
